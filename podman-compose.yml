@@ -1,0 +1,23 @@
+# no version needed since 2020
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    container_name: so-simple
+    working_dir: /srv-jekyll
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "2M"
+        max-file: "1"
+    volumes:
+      - .:/srv-jekyll
+    ports:
+      - '5789:5789'
+      - '35789:35789'
+    command: |
+      bundle exec jekyll serve
+      --trace --force_polling
+      --host 0.0.0.0
+      --port 5789
+      --livereload
+      --livereload-port 35789
