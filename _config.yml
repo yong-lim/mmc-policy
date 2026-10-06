@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
-skin: "/assets/css/skins/default.css"
+skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "MMC Policy Access Point"
 description: "An access point to MMC's policy and documents."
@@ -41,8 +41,12 @@ twitter:
   username: mmistakes # site's Twitter username
 
 gdrive: https://docs.google.com/document/d/
+
 sass:
+  sass_dir: _sass
+  style: compressed
   quiet_deps: true
+
 
 # Liquid
 liquid:
