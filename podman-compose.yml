@@ -2,15 +2,9 @@
 services:
   jekyll:
     image: bretfisher/jekyll-serve
-    container_name: so-simple
-    working_dir: /srv-jekyll
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "2M"
-        max-file: "1"
+    container_name: mmc-policy
     volumes:
-      - .:/srv-jekyll
+      - .:/site
     ports:
       - '5789:5789'
       - '35789:35789'
