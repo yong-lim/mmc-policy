@@ -5,7 +5,8 @@ sitemap: false
 
 @charset "utf-8";
 
-@import "so-simple";
+@use "so-simple";
+@use "theme";
 
 $serif-font-family: "IBM Plex Serif", serif;
 $sans-serif-font-family: "Source Sans Pro", sans-serif;
