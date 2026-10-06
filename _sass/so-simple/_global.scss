@@ -190,6 +190,10 @@
   font-size: 0.9rem;
   list-style: none;
 
+  padding: 10px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+
   @include breakpoint($large) {
     grid-template-columns: repeat(3, 1fr);
   }
