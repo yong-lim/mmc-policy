@@ -14,8 +14,8 @@
 
 /* Core Styles */
 @import "so-simple/reset";
-// @import "so-simple/base";
-// @import "so-simple/tables";
+@import "so-simple/base";
+@import "so-simple/tables";
 
 /* Components */
 @import "so-simple/global";
@@ -26,6 +26,7 @@
 @import "so-simple/icons";
 @import "so-simple/notices";
 @import "so-simple/syntax-highlighting";
+@import "so-simple/entries";
 
 /* Utility Clases */
 @import "so-simple/utilities";
