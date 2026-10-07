@@ -59,6 +59,10 @@ $yiq-contrasted-light-default: #fff !default;
 $yiq-contrasted-threshold: 175 !default;
 $yiq-debug: false !default;
 
+// $base-color: light-dark(#000, #eaeaea);
+// $border-color: light-dark(#fff, tint($base-color, 80%));
+
+
 /* Brands */
 $behance-color: #1769ff !default;
 $bitbucket-color: #205081 !default;
