@@ -2,6 +2,7 @@
    Entries (Posts, collection documents, etc.)
    ========================================================================== */
 // @use 'sass:color';
+@use 'variables';
 
 .entry {
   @include clearfix();
@@ -10,12 +11,17 @@
     color: inherit;
     text-decoration: none;
   }
-  padding: 15px;
+  padding: 15px 15px 0px ;
+  margin-bottom: 14px;
   border-radius: 12px;
-  border: 1.5px solid #fff;
+  border: 1.5px solid #586e75;
 
   &:hover {
     border-color: lightskyblue;
+    color: #00adb5;
+  }
+  &.entry-title:hover  {
+    color: #0a71e2;
     color: #00adb5;
   }
 }
@@ -26,7 +32,10 @@
 .entry:hover .entry-excerpt p, .entry:hover .entry-meta {
   color: #0a71e2;
   color: #00adb5;
-  // color: $accent-color;
+}
+.entry-title:hover  {
+  color: #0a71e2;
+  color: #00adb5;
 }
 
 .entry-header {
@@ -102,7 +111,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .entry-title {
@@ -120,7 +129,7 @@
 
     /* remove space after last child element */
     > *:last-child {
-      margin-bottom: 0;
+      margin-bottom: 1rem;
     }
   }
 
