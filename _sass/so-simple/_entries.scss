@@ -22,7 +22,7 @@
   }
   &.entry-title:hover  {
     color: #0a71e2;
-    color: #00adb5;
+    // color: #00adb5;
   }
 }
 
@@ -30,13 +30,13 @@
   pointer-events: none; /* Allows hover triggers to pass through absolute overlays */
 }
 .entry:hover .entry-excerpt p, .entry:hover .entry-meta {
-  color: #0a71e2;
+  // color: #0a71e2;
   color: #00adb5;
 }
-.entry-title:hover  {
-  color: #0a71e2;
-  color: #00adb5;
-}
+// .entry-title:hover  {
+//   color: #0a71e2;
+//   color: #00adb5;
+// }
 
 .entry-header {
   display: -webkit-box;
@@ -49,7 +49,7 @@
 }
 
 .entry-title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
   font-family: $title-font-family;
   font-weight: $entry-title-weight;
   font-style: italic;
