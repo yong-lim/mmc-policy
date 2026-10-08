@@ -13,7 +13,8 @@ a {
   color: $accent-color;
 
   &:hover {
-    color: shade($accent-color, 25%);
+    // color: shade($accent-color, 25%);
+    color: $accent-color;
   }
 }
 
@@ -165,13 +166,13 @@ blockquote {
    Entries (Posts, collection documents, etc.)
    ========================================================================== */
 
-.entry {
-  a {
-    &:hover {
-      color: $accent-color;
-    }
-  }
-}
+// .entry {
+//   a {
+//     &:hover {
+//       color: $accent-color;
+//     }
+//   }
+// }
 
 /* ==========================================================================
    Tables
