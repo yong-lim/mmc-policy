@@ -17,7 +17,8 @@
   border: 1.5px solid #586e75;
 
   &:hover {
-    border-color: lightskyblue;
+    // border-color: lightskyblue;
+    border-color: #808080;
     color: #00adb5;
   }
   &.entry-title:hover  {
@@ -31,7 +32,8 @@
 }
 .entry:hover .entry-excerpt p, .entry:hover .entry-meta {
   // color: #0a71e2;
-  color: #00adb5;
+  // color: #00adb5;
+  color: #696969;
 }
 // .entry-title:hover  {
 //   color: #0a71e2;

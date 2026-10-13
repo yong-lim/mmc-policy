@@ -14,7 +14,8 @@ a {
 
   &:hover {
     // color: shade($accent-color, 25%);
-    color: $accent-color;
+    // color: $accent-color;
+    color: color.adjust($text-color, $lightness: 60%);
   }
 }
 
