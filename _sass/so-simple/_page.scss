@@ -203,6 +203,10 @@
    Wide Layout Overrides
    ========================================================================== */
 
+.main-content {
+  flex-grow: 1;
+}
+
 .layout--home,
 .layout--posts,
 .layout--categories,
